@@ -1,0 +1,141 @@
+server    | INFO:flwr:  History (loss, distributed):
+server    | INFO :                      round 1: 0.0684860147535801
+server    | INFO:flwr:          round 1: 0.0684860147535801
+server    | INFO :                      round 2: 0.06300051435828209
+server    | INFO:flwr:          round 2: 0.06300051435828209
+server    | INFO :                      round 3: 0.060927022434771064
+server    | INFO:flwr:          round 3: 0.060927022434771064
+server    | INFO :                      round 4: 0.05932242684066295
+server    | INFO:flwr:          round 4: 0.05932242684066295
+server    | INFO :                      round 5: 0.05735231414437294
+server    | INFO:flwr:          round 5: 0.05735231414437294
+server    | INFO :                      round 6: 0.05567157287150622
+server    | INFO:flwr:          round 6: 0.05567157287150622
+client10  | INFO :      
+server    | INFO :                      round 7: 0.05464252829551697
+client3   | INFO :      
+client2   | INFO :      
+client10  | INFO:flwr:
+client7   | INFO :      
+server    | INFO:flwr:          round 7: 0.05464252829551697
+client3   | INFO:flwr:
+client2   | INFO:flwr:
+client10  | INFO :      Received: reconnect message c62adb09-752e-4a6d-a25a-eebbfb0659d9
+client7   | INFO:flwr:
+server    | INFO :                      round 8: 0.05395959615707398
+client3   | INFO :      Received: reconnect message 66f0e906-3320-4d89-931c-fc2081c9bb44
+client2   | INFO :      Received: reconnect message 7598fd3d-6502-49e3-b235-02a105312ddd
+client10  | INFO:flwr:Received: reconnect message c62adb09-752e-4a6d-a25a-eebbfb0659d9
+client7   | INFO :      Received: reconnect message 19908e53-c454-4df6-9761-21149629abd3
+server    | INFO:flwr:          round 8: 0.05395959615707398
+client3   | INFO:flwr:Received: reconnect message 66f0e906-3320-4d89-931c-fc2081c9bb44
+client2   | INFO:flwr:Received: reconnect message 7598fd3d-6502-49e3-b235-02a105312ddd
+client7   | INFO:flwr:Received: reconnect message 19908e53-c454-4df6-9761-21149629abd3
+server    | INFO :                      round 9: 0.053007142059504984
+server    | INFO:flwr:          round 9: 0.053007142059504984
+server    | INFO :                      round 10: 0.05275016482919455
+server    | INFO:flwr:          round 10: 0.05275016482919455
+server    | INFO :                      round 11: 0.051796721667051314
+server    | INFO:flwr:          round 11: 0.051796721667051314
+server    | INFO :                      round 12: 0.05112331714481115
+server    | INFO:flwr:          round 12: 0.05112331714481115
+server    | INFO :                      round 13: 0.05072639491409063
+client1   | INFO :      
+server    | INFO:flwr:          round 13: 0.05072639491409063
+client1   | INFO:flwr:
+client4   | INFO :      
+server    | INFO :                      round 14: 0.04975477382540703
+client1   | INFO :      Received: reconnect message 5987c258-a5e4-4d75-95a4-ff5ae1bc4c28
+client4   | INFO:flwr:
+server    | INFO:flwr:          round 14: 0.04975477382540703
+client9   | INFO :      
+client1   | INFO:flwr:Received: reconnect message 5987c258-a5e4-4d75-95a4-ff5ae1bc4c28
+client4   | INFO :      Received: reconnect message dd720933-a54d-4096-988f-a902c2f4652c
+server    | INFO :                      round 15: 0.04909705929458141
+client9   | INFO:flwr:
+client6   | INFO :      
+client4   | INFO:flwr:Received: reconnect message dd720933-a54d-4096-988f-a902c2f4652c
+server    | INFO:flwr:          round 15: 0.04909705929458141
+client9   | INFO :      Received: reconnect message 0a9fd8b2-19b3-49ac-b432-2c65b4303c35
+client6   | INFO:flwr:
+server    | INFO :                      round 16: 0.04922122023999691
+client5   | INFO :      
+client9   | INFO:flwr:Received: reconnect message 0a9fd8b2-19b3-49ac-b432-2c65b4303c35
+client8   | INFO :      
+client6   | INFO :      Received: reconnect message 5fef1120-47ec-4777-aab5-6bff8f630bba
+server    | INFO:flwr:          round 16: 0.04922122023999691
+client5   | INFO:flwr:
+client8   | INFO:flwr:
+client6   | INFO:flwr:Received: reconnect message 5fef1120-47ec-4777-aab5-6bff8f630bba
+server    | INFO :                      round 17: 0.0485169680789113
+client5   | INFO :      Received: reconnect message 858bccc3-f3a6-4530-8a9b-7b9b0923afcc
+client8   | INFO :      Received: reconnect message 372e3ef0-75f6-4dd5-b83b-c353b2005d13
+server    | INFO:flwr:          round 17: 0.0485169680789113
+client5   | INFO:flwr:Received: reconnect message 858bccc3-f3a6-4530-8a9b-7b9b0923afcc
+client8   | INFO:flwr:Received: reconnect message 372e3ef0-75f6-4dd5-b83b-c353b2005d13
+server    | INFO :                      round 18: 0.04789452012628317
+server    | INFO:flwr:          round 18: 0.04789452012628317
+server    | INFO :                      round 19: 0.04835806880146265
+server    | INFO:flwr:          round 19: 0.04835806880146265
+server    | INFO :                      round 20: 0.047519540227949617
+server    | INFO:flwr:          round 20: 0.047519540227949617
+server    | INFO :                      round 21: 0.04646192789077759
+server    | INFO:flwr:          round 21: 0.04646192789077759
+server    | INFO :                      round 22: 0.046125749312341216
+server    | INFO:flwr:          round 22: 0.046125749312341216
+server    | INFO :                      round 23: 0.04596733879297972
+server    | INFO:flwr:          round 23: 0.04596733879297972
+server    | INFO :                      round 24: 0.04611813705414534
+server    | INFO:flwr:          round 24: 0.04611813705414534
+server    | INFO :                      round 25: 0.04544162340462208
+server    | INFO:flwr:          round 25: 0.04544162340462208
+server    | INFO :                      round 26: 0.045187905058264734
+server    | INFO:flwr:          round 26: 0.045187905058264734
+server    | INFO :                      round 27: 0.04508309159427881
+server    | INFO:flwr:          round 27: 0.04508309159427881
+server    | INFO :                      round 28: 0.044956452772021295
+server    | INFO:flwr:          round 28: 0.044956452772021295
+server    | INFO :                      round 29: 0.044145296327769756
+server    | INFO:flwr:          round 29: 0.044145296327769756
+server    | INFO :                      round 30: 0.04412859287112951
+server    | INFO:flwr:          round 30: 0.04412859287112951
+server    | INFO :                      round 31: 0.04363165572285652
+server    | INFO:flwr:          round 31: 0.04363165572285652
+server    | INFO :                      round 32: 0.04352657645940781
+server    | INFO:flwr:          round 32: 0.04352657645940781
+server    | INFO :                      round 33: 0.0433065028861165
+server    | INFO:flwr:          round 33: 0.0433065028861165
+server    | INFO :                      round 34: 0.043142893351614475
+server    | INFO:flwr:          round 34: 0.043142893351614475
+server    | INFO :                      round 35: 0.04285247977823019
+server    | INFO:flwr:          round 35: 0.04285247977823019
+server    | INFO :                      round 36: 0.04266374260187149
+server    | INFO:flwr:          round 36: 0.04266374260187149
+server    | INFO :                      round 37: 0.04246034640818834
+server    | INFO:flwr:          round 37: 0.04246034640818834
+server    | INFO :                      round 38: 0.042788782715797426
+server    | INFO:flwr:          round 38: 0.042788782715797426
+server    | INFO :                      round 39: 0.04240457639098168
+server    | INFO:flwr:          round 39: 0.04240457639098168
+server    | INFO :                      round 40: 0.04230391159653664
+server    | INFO:flwr:          round 40: 0.04230391159653664
+server    | INFO :                      round 41: 0.042727887816727164
+server    | INFO:flwr:          round 41: 0.042727887816727164
+server    | INFO :                      round 42: 0.04199577309191227
+server    | INFO:flwr:          round 42: 0.04199577309191227
+server    | INFO :                      round 43: 0.0429187772795558
+server    | INFO:flwr:          round 43: 0.0429187772795558
+server    | INFO :                      round 44: 0.04153432510793209
+server    | INFO:flwr:          round 44: 0.04153432510793209
+server    | INFO :                      round 45: 0.04150161109864712
+server    | INFO:flwr:          round 45: 0.04150161109864712
+server    | INFO :                      round 46: 0.041329226829111575
+server    | INFO:flwr:          round 46: 0.041329226829111575
+server    | INFO :                      round 47: 0.04099706169217825
+server    | INFO:flwr:          round 47: 0.04099706169217825
+server    | INFO :                      round 48: 0.040985416062176226
+server    | INFO:flwr:          round 48: 0.040985416062176226
+server    | INFO :                      round 49: 0.0409571873024106
+server    | INFO:flwr:          round 49: 0.0409571873024106
+server    | INFO :                      round 50: 0.041087055951356886
+server    | INFO:flwr:          round 50: 0.041087055951356886

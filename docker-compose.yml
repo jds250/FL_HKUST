@@ -1,0 +1,74 @@
+version: '3'
+services:
+  server:
+    container_name: server
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python server.py --number_of_rounds=40
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              device_ids: ['0']
+              capabilities: [gpu]
+    environment:
+      FLASK_RUN_PORT: 6000
+      DOCKER_HOST_IP: host.docker.internal
+    volumes:
+      - .:/app
+      - /var/run/docker.sock:/var/run/docker.sock      
+    ports:
+      - "8265:8265"
+      - "8000:8000"
+
+  client0:
+    container_name: client0
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python client.py --server_address=server:8080   --client_id=0 --total_clients=2 --batch_size=1024
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              device_ids: ['0']
+              capabilities: [gpu]
+    volumes:
+      - .:/app
+      - /var/run/docker.sock:/var/run/docker.sock
+    ports:
+      - "6000:6000"
+    depends_on:
+      - server
+    environment:
+      FLASK_RUN_PORT: 6000
+      container_name: client0
+      DOCKER_HOST_IP: host.docker.internal
+
+  client1:
+    container_name: client1
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python client.py --server_address=server:8080   --client_id=1 --total_clients=2 --batch_size=1024
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              device_ids: ['1']
+              capabilities: [gpu]
+    volumes:
+      - .:/app
+      - /var/run/docker.sock:/var/run/docker.sock
+    ports:
+      - "6001:6001"
+    depends_on:
+      - server
+    environment:
+      FLASK_RUN_PORT: 6001
+      container_name: client1
+      DOCKER_HOST_IP: host.docker.internal

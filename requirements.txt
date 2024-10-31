@@ -1,0 +1,6 @@
+flwr
+flwr_datasets[vision]
+numpy
+scipy
+scikit-learn
+tensorboard

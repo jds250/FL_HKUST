@@ -1,0 +1,8 @@
+# 排除根目录下的 datasets 文件夹
+datasets/
+
+# 排除 FedoSSL 下的 datasets 和 pretrained 文件夹
+FedoSSL/datasets/
+FedoSSL/pretrained/
+
+.DS_Store
